@@ -1,0 +1,137 @@
+p.MainTitle{
+    font-size: 70px;
+    font-family: "Lucida Calligraphy";
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+
+}
+
+p.MText{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#MTitle{
+    padding-top: 30vh;
+}
+
+
+.centerParts{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.SubTitleLeft{
+    padding-left: 5%;
+    font-size: 50px;
+    font-family: "Brush Script MT";
+}
+
+.SubTitleMid{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Kaiti";
+}
+
+.gallery{
+    width: 85%;
+    height: auto;
+    position: sticky;
+    margin: auto;
+    
+}
+
+#memos{
+    position: sticky;
+}
+
+#memos .mySlides{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    display: none;
+}
+
+#memos img{
+    width: 35vw;
+    height: 40vw;
+    
+    margin-left: 25%;
+}
+
+
+/* Next & previous buttons */
+#memos .prevPhoto, #memos .nextPhoto {
+    cursor: pointer;
+    position: absolute;
+    margin-top: -50vh;
+    margin-left: 17vw;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s;
+    border-radius: 3px 3px 3px 3px;
+    background-color: cornflowerblue;
+}
+  
+/* Position the "next button" to the right */
+#memos .nextPhoto {
+    right: 20vw;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey color with a little bit see-through */
+#memos .prevPhoto:hover, #memos .nextPhoto:hover {
+    background-color: black;    
+}
+
+
+
+/*adjust the size of images*/
+.gallery img{
+    width: 60%;
+    height: auto;
+    
+    margin-left: 20%;
+  }
+
+.memory_text{
+    font-size: 30px;
+    margin-left: 20vw;
+}
+
+
+
+
+.leftC{
+    position: fixed;
+    left: 0;
+    bottom: 13vw;
+}
+
+.leftT{
+    position: fixed;
+    left: 0;
+    bottom: 39vw;
+}
+
+.rightT{
+    position: fixed;
+    right: 0;
+    bottom: 26vw;
+}
+
+.rightC{
+    position: fixed;
+    right: 0vw;
+    bottom: 1vw;
+}
+
+.backgroundImg img{
+    width: 9vw;
+    height: 9vw;
+}
